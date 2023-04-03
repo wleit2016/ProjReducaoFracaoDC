@@ -12,6 +12,7 @@ public class Principal {
 		
 		int[] numerador = new int[3];
 		int[] denominador = new int [3];
+		int numeroPrimo = 2;
 		
 		System.out.println("Informe 3 frações para fazer a redução de denominador comum.\n");
 		
