@@ -2,6 +2,8 @@ package principal;
 
 import java.util.Scanner;
 
+import calculos.Calculo;
+
 public class Principal {
 
 	public static void main(String[] args) {
@@ -21,6 +23,11 @@ public class Principal {
 		}
 		
 		entrada.close();
+		
+		Calculo calculo = new Calculo();
+		
+		System.out.println(calculo.ePrimo(11));
+		System.out.println(calculo.proximoPrimo(11));
 	}
 
 }
